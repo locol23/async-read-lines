@@ -1,0 +1,21 @@
+{
+  "name": "async-read-lines",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "start": "ts-node src/index.ts",
+    "build": "yarn clean && tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@types/node-fetch": "2",
+    "node-fetch": "2"
+  }
+}
